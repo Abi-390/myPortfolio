@@ -135,19 +135,31 @@ const Hero = () => {
             variants={itemVariants}
           >
             <motion.div
-              className="absolute inset-0 rounded-2xl overflow-hidden border border-accent/20 bg-gradient-to-br from-accent/10 to-secondary/20"
+              className="absolute inset-0 rounded-2xl overflow-hidden  border-accent/20 bg-gradient-to-br from-accent/10 to-secondary/20"
               whileHover={{ boxShadow: '0 20px 40px rgba(59, 130, 246, 0.3)' }}
             >
               {/* Placeholder for profile image */}
-              <div className="w-full h-full bg-gradient-to-br from-secondary/50 to-secondary/80 flex items-center justify-center">
-                <div className="text-center">
-                  <img src="me.png" alt="" />
-                </div>
-              </div>
+             {/* Profile Image */}
+<div className="w-full h-full flex items-center justify-center bg-transparent">
+  <div className="relative">
+    
+    {/* Glow Layer */}
+    <div className="absolute inset-0 rounded-2xl bg-accent/20 blur-2xl opacity-70"></div>
+
+    {/* Image */}
+    <img
+      src="me.png"
+      alt="Abinash Deka"
+      className="relative z-10 rounded-3xl  border-accent/40  object-cover max-h-[800px]"
+    />
+
+  </div>
+</div>
+
 
               {/* Floating Card - Tech Stack */}
               <motion.div
-                className="absolute bottom-6 right-6 bg-secondary/90 backdrop-blur-md rounded-lg p-4 border border-accent/30 shadow-xl max-w-xs"
+                className="absolute top-6 z-20 right-6 bg-secondary/90 backdrop-blur-md rounded-lg p-4 border border-accent/30 shadow-xl max-w-xs"
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 4, repeat: Infinity }}
               >

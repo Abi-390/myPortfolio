@@ -51,10 +51,10 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center text-gray-900 font-bold md:hidden">
+            <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center font-bold md:hidden">
               A
             </div>
-            <span className="hidden sm:inline text-gray-900">AbiCodes</span>
+            <span className="hidden sm:inline ">AbiCodes</span>
           </motion.a>
 
           {/* Desktop Navigation */}
