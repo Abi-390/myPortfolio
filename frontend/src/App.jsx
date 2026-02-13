@@ -1,34 +1,62 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect } from 'react'
+import Navbar from './components/Navbar'
+import Hero from './sections/Hero'
+import About from './sections/About'
+import Projects from './sections/Projects'
+import TechStack from './sections/TechStack'
+import Certifications from './sections/Certifications'
+import Education from './sections/Education'
+import Contact from './sections/Contact'
+import Footer from './sections/Footer'
 
+/**
+ * Main App Component
+ * - Root component that orchestrates all sections
+ * - Manages global layout and structure
+ * - Combines all sections in logical order
+ */
 function App() {
-  const [count, setCount] = useState(0)
+  useEffect(() => {
+    // Smooth scroll behavior for the entire page
+    document.documentElement.style.scrollBehavior = 'smooth'
+    
+    return () => {
+      document.documentElement.style.scrollBehavior = 'auto'
+    }
+  }, [])
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="w-full min-h-screen  bg-gradient-to-br from-gray-100 via-gray-400  text-text-primary">
+      {/* Navigation */}
+      <Navbar />
+
+      {/* Main Content */}
+      <main className="w-full">
+        {/* Hero Section - First fold, full attention */}
+        <Hero />
+
+        {/* About Section - Introduction to expertise */}
+        <About />
+
+        {/* Projects Section - Showcase of work */}
+        <Projects />
+
+        {/* Tech Stack Section - Technical expertise */}
+        <TechStack />
+
+        {/* Certifications Section - Professional credentials */}
+        <Certifications />
+
+        {/* Education Section - Academic background */}
+        <Education />
+
+        {/* Contact Section - Call to action and contact form */}
+        <Contact />
+      </main>
+
+      {/* Footer */}
+      <Footer />
+    </div>
   )
 }
 
