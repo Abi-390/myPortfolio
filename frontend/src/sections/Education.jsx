@@ -52,7 +52,7 @@ const Education = () => {
                       </div>
 
                       {/* Timeline Dot */}
-                      <div className="relative">
+                      <div className="relative hidden md:block">
                         <motion.div
                           className="absolute left-0 md:left-1/2 top-8 w-4 h-4 rounded-full bg-accent border-4 border-primary transform md:-translate-x-1/2 -translate-x-1/2"
                           whileInView={{ scale: [0.8, 1.2, 1] }}
@@ -64,7 +64,7 @@ const Education = () => {
                   ) : (
                     <>
                       {/* Timeline Dot */}
-                      <div className="relative">
+                      <div className="relative hidden md:block">
                         <motion.div
                           className="absolute right-0 md:left-1/2 top-8 w-4 h-4 rounded-full bg-accent border-4 border-primary transform md:-translate-x-1/2 translate-x-1/2"
                           whileInView={{ scale: [0.8, 1.2, 1] }}

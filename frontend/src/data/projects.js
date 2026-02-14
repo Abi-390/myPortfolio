@@ -62,26 +62,18 @@ export const techStackData = {
 export const certificationsData = [
   {
     id: 1,
-    title: 'AWS Certified Solutions Architect – Associate',
-    issuer: 'Amazon Web Services',
-    date: 'Oct 2023',
+    title: 'Zephyr winter internship 2025',
+    issuer: 'Zephyr Solutions',
+    date: 'Jan - May 2025',
     status: 'Active',
     link: '#'
   },
   {
     id: 2,
-    title: 'Professional Cloud Developer',
-    issuer: 'Google Cloud',
-    date: 'Jan 2023',
+    title: 'MERN Stack along with CI/CD cohort completion certificate',
+    issuer: 'Sheryians Coding School',
+    date: 'Jan 2026',
     status: 'Active',
-    link: '#'
-  },
-  {
-    id: 3,
-    title: 'Meta Front-End Developer Specialization',
-    issuer: 'Meta / Coursera',
-    date: 'Jul 2022',
-    status: 'Lifetime',
     link: '#'
   }
 ]
@@ -107,7 +99,7 @@ export const educationData = [
   {
     id: 3,
     degree: '10th Boards',
-    institution: 'Green Valley Academy',
+    institution: 'Agdala Chariali High School',
     year:'2018',
     gpa: '94.83%',
     position: 'bottom'
