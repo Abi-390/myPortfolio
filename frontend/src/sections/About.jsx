@@ -42,7 +42,7 @@ const About = () => {
             <span className="gradient-text"> Experiences</span>
           </h2>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-            I'm a full-stack developer specializing in building high-performance web applications with modern technologies and exceptional design.
+            I'm a full-stack developer focusing on building high-performance web applications with modern technologies and exceptional design.
           </p>
         </motion.div>
 
@@ -83,7 +83,7 @@ const About = () => {
               Passionate About Building
             </h3>
             <p className="text-text-secondary leading-relaxed">
-              With over 8 years of experience, I've partnered with startups and established brands to transform complex problems into intuitive digital solutions. I believe that good code is as important as good design.
+              With a deep passion & love software development, I've dedicated 3+ years learning variouse aspects of software development which includes turning complex problems into intuitive digital solutions, Mobile first apporach, User & Server side optimization etc. I believe that good code is as important as good design.
             </p>
             <p className="text-text-secondary leading-relaxed">
               My approach combines clean architecture with exceptional user interface design, ensuring that every project is not only functional but also delightful to use.
@@ -91,7 +91,7 @@ const About = () => {
 
             {/* Skills List */}
             <div className="grid grid-cols-2 gap-4 pt-4">
-              {['React & Vue.js', 'TypeScript', 'Node.js', 'DevOps', 'AWS', 'Database Design'].map((skill) => (
+              {['React.js', 'TypeScript', 'Node.js', 'DevOps', 'AWS', 'Database Design'].map((skill) => (
                 <motion.div
                   key={skill}
                   className="flex items-center gap-2"
