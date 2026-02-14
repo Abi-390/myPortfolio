@@ -223,7 +223,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-text-secondary">Email</p>
-                  <p className="font-medium text-text-primary">hello@developer.me</p>
+                  <p className="font-medium text-text-primary">dekaabinash16@gmail.com</p>
                 </div>
               </motion.a>
 
@@ -237,7 +237,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-text-secondary">Location</p>
-                  <p className="font-medium text-text-primary">San Francisco, California</p>
+                  <p className="font-medium text-text-primary">Guwahati, Assam</p>
                 </div>
               </motion.div>
             </div>

@@ -53,7 +53,7 @@ const TechStack = () => {
   ]
 
   return (
-    <section id="techstack" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-secondary/30 to-primary">
+    <section id="techstack" className="py-20 px-4 sm:px-6 lg:px-8 ">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <motion.div
@@ -71,7 +71,7 @@ const TechStack = () => {
             Tech Stack & Ecosystem
           </h2>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-            A comprehensive overview of my technical expertise across the modern web stack. I specialize in building scalable, performance-driven applications using industry-leading tools.
+            A comprehensive overview of my technical expertise across the modern web stack. I prioritize in building scalable, performance-driven applications using industry-leading tools.
           </p>
         </motion.div>
 

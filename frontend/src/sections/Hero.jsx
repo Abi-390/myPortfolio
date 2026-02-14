@@ -63,7 +63,7 @@ const Hero = () => {
               className="text-lg text-text-secondary max-w-lg leading-relaxed"
               variants={itemVariants}
             >
-              Building scalable web solutions with a focus on modern UX and performance. Fresher Full-Stack Engineer specializing in high-performance architectures.
+              Building scalable web solutions with a focus on modern UX and performance. Full-Stack Engineer focusing in high-performance architectures.
             </motion.p>
 
             {/* Stats */}
@@ -95,7 +95,7 @@ const Hero = () => {
               <Button
                 variant="primary"
                 size="lg"
-                className="flex items-center justify-center gap-2 group"
+                className="flex items-center justify-center gap-2 group border"
               >
                 View My Projects
                 <FiArrowRight className="group-hover:translate-x-1 transition-transform" />
@@ -117,7 +117,7 @@ const Hero = () => {
             >
               <p className="text-sm text-text-secondary mb-3">Tech Stack</p>
               <div className="flex flex-wrap gap-2">
-                {['React & Node.js', 'TypeScript', 'Tailwind', 'AWS'].map((tech) => (
+                {['React & Node.js', 'TypeScript', 'Tailwind', 'MongoDB'].map((tech) => (
                   <span
                     key={tech}
                     className="px-3 py-1 rounded-full bg-secondary/50 text-sm text-text-secondary border border-accent/10"

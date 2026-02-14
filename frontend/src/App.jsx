@@ -26,7 +26,7 @@ function App() {
   }, [])
 
   return (
-    <div className="w-full min-h-screen  bg-gradient-to-b from-slate-900 via-blue-900/20 to-slate-950  text-white">
+    <div className="w-full min-h-screen  bg-gradient-to-b from-slate-900 via-blue-900 to-slate-950  text-white">
       {/* Navigation */}
       <Navbar />
 
