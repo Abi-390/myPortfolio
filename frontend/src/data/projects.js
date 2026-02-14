@@ -90,26 +90,26 @@ export const educationData = [
   {
     id: 1,
     degree: 'Bachelor of Computer Applications',
-    institution: 'Tech University of Excellence',
-    year: '2023 - 2024',
-    gpa: '9.3/10',
+    institution: 'Dibrugarh University',
+    year: '2022 - 2025',
+    gpa: '8.66/10',
     position: 'top'
   },
   {
     id: 2,
-    degree: 'Senior Secondary (12th)',
-    institution: 'St. Xavier Higher School',
-    year: '2019 - 2021',
-    stream: 'PCM with Computer Science',
-    percentage: '94%',
+    degree: '12th',
+    institution: 'Zenith Academy',
+    year:'2020',
+    stream: 'Science',
+    percentage: '~72%',
     position: 'middle'
   },
   {
     id: 3,
-    degree: 'Secondary School (10th)',
+    degree: '10th Boards',
     institution: 'Green Valley Academy',
-    year: '2019 Completion',
-    gpa: '8/10',
+    year:'2018',
+    gpa: '94.83%',
     position: 'bottom'
   }
 ]
