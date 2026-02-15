@@ -12,23 +12,23 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: 'Veloce Commerce',
-    description: 'High-performance storefront with lightning-fast search, intelligent filtering, and seamless checkout flow. Optimized for conversion with sub-millisecond latency.',
+    title: 'Laughable AI',
+    description: 'A full-stack AI chat application built with Retrieval-Augmented Generation (RAG), Vector DB, Socket.IO, & MERN stack.',
     image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=500&h=300&fit=crop',
-    tags: ['Next.js', 'Stripe'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    year: '2024'
+    tags: ['MERN', 'Pinecone', 'Socket.Io', 'GEMINI API'],
+    github: 'https://github.com/Abi-390/chatgpt',
+    live: 'https://laughableai.vercel.app',
+    year: '2026'
   },
   {
     id: 3,
-    title: 'Pulse Core API',
-    description: 'Distributed system architecture designed to handle millions of requests with sub-millisecond latency. Implements advanced caching and load balancing strategies.',
+    title: 'Otaku Street Wear',
+    description: 'A React e-commerce project built with Redux Toolkit, JSON Server backend deployed on Render, and Fake Store API.',
     image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop',
-    tags: ['Node.js', 'Redis'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    year: '2023'
+    tags: ['React.js', 'Redux','Fakestore API','JSON-server'],
+    github: 'https://github.com/Abi-390/ReduxProject',
+    live: 'https://otakustreetwear.vercel.app',
+    year: '2025'
   }
 ]
 
