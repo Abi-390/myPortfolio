@@ -2,13 +2,13 @@
 export const projectsData = [
   {
     id: 1,
-    title: 'Nova AI Dashboard',
-    description: 'Advanced analytics platform featuring real-time data visualization and AI-powered insights. Built with modern React and optimized for high-performance rendering of complex datasets.',
+    title: 'Clubsphere',
+    description: 'A production-ready MERN stack community platform with role-based access, events, and threaded discussions.',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop',
-    tags: ['React', 'TypeScript'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    year: '2023'
+    tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
+    github: 'https://github.com/Abi-390/ClubSphere',
+    live: 'https://clubsphere-tau.vercel.app',
+    year: '2026'
   },
   {
     id: 2,
