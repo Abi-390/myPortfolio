@@ -147,11 +147,13 @@ const Hero = () => {
     <div className="absolute inset-0 rounded-2xl bg-accent/20 blur-2xl opacity-70"></div>
 
     {/* Image */}
-    <img
-      src="me.png"
-      alt="Abinash Deka"
-      className="relative z-10 rounded-3xl  border-accent/40  object-cover max-h-[800px]"
-    />
+   <img
+  src="me.png"
+  alt="Abinash Deka"
+  className="max-h-[500px] object-contain
+             drop-shadow-[0_0_15px_#3b82f6]"
+/>
+
 
   </div>
 </div>
