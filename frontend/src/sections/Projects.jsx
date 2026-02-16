@@ -34,7 +34,7 @@ const Projects = () => {
           {projectsData.map((project, index) => (
             <Card key={project.id} delay={index * 0.1}>
               {/* Project Image */}
-              <div className="relative h-48 mb-6 rounded-lg overflow-hidden bg-secondary/50 group">
+              <div className="relative h-48 mb-6 rounded-lg overflow-hidden bg-secondary/50 group text-gray-900">
                 <img
                   src={project.image}
                   alt={project.title}

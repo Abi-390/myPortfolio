@@ -24,7 +24,7 @@ export const projectsData = [
     id: 3,
     title: 'Otaku Street Wear',
     description: 'A React e-commerce project built with Redux Toolkit, JSON Server backend deployed on Render, and Fake Store API.',
-    image: 'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://plus.unsplash.com/premium_photo-1675186049222-0b5018db6ce9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     tags: ['React.js', 'Redux','Fakestore API','JSON-server'],
     github: 'https://github.com/Abi-390/ReduxProject',
     live: 'https://otakustreetwear.vercel.app',
