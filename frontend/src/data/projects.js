@@ -94,7 +94,7 @@ export const educationData = [
     institution: 'Zenith Academy',
     year:'2020',
     stream: 'Science',
-    percentage: '~72%',
+    percentage: '72%',
     position: 'middle'
   },
   {
