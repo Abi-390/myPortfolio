@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { FiArrowRight, FiDownload } from 'react-icons/fi'
 import Button from '../components/Button'
+import Projects from './Projects'
 
 /**
  * Hero Section
@@ -28,6 +29,13 @@ const Hero = () => {
       transition: { duration: 0.6, ease: 'easeOut' },
     },
   }
+  const scrollToProjects = () => {
+  const section = document.getElementById('projects')
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' })
+  }
+}
+
 
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center pt-20 pb-20 px-4 sm:px-6 lg:px-8">
@@ -95,19 +103,14 @@ const Hero = () => {
               <Button
                 variant="primary"
                 size="lg"
+                onClick={scrollToProjects}
                 className="flex items-center justify-center gap-2 group border"
+                
               >
                 View My Projects
                 <FiArrowRight className="group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="flex items-center justify-center gap-2"
-              >
-                <FiDownload size={20} />
-                Download Resume
-              </Button>
+             
             </motion.div>
 
             {/* Tech Stack Preview */}
