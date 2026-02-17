@@ -41,6 +41,7 @@ export const techStackData = {
   ],
   backend: [
     { name: 'Node.js', icon: 'SiNodedotjs' },
+    { name : 'Express.js', icon: 'SiExpress'},
     //{ name: 'Python / FastApi', icon: 'SiPython' },
     //{ name: 'Go (Golang)', icon: 'SiGo' },
     { name: 'REST API', icon: 'SiGraphql' },

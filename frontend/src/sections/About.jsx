@@ -105,20 +105,7 @@ const About = () => {
           </div>
 
           {/* Image Placeholder */}
-          <motion.div
-            className="relative h-96 rounded-xl overflow-hidden border border-accent/20"
-            whileHover={{ boxShadow: '0 20px 40px rgba(59, 130, 246, 0.3)' }}
-          >
-            <div className="w-full h-full bg-gradient-to-br from-accent/5 to-secondary/50 flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4">🚀</div>
-                <p className="text-text-secondary">Featured Work</p>
-              </div>
-            </div>
-
-            {/* Decorative Elements */}
-            <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-300 bg-gradient-to-t from-accent/20 to-transparent" />
-          </motion.div>
+        
         </motion.div>
       </div>
     </section>

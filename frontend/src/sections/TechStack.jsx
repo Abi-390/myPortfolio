@@ -13,7 +13,7 @@ import {
   SiRedis,
   SiPrisma,
   SiDocker,
- 
+  SiExpress,
   SiGithubactions,
   SiFigma,
 } from 'react-icons/si'
@@ -40,7 +40,7 @@ const TechStack = () => {
     SiRedis,
     SiPrisma,
     SiDocker,
-    
+    SiExpress,
     SiGithubactions,
     SiFigma,
   }
