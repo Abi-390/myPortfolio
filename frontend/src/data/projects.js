@@ -67,7 +67,7 @@ export const certificationsData = [
     issuer: 'Zephyr Solutions',
     date: 'Jan - May 2025',
     status: 'Active',
-    link: '#'
+    link: 'https://drive.google.com/file/d/1E8QdjxsRuTxurllc41vgvKStRjDOG32m/view?usp=drive_link'
   },
   {
     id: 2,
