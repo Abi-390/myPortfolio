@@ -75,7 +75,7 @@ export const certificationsData = [
     issuer: 'Sheryians Coding School',
     date: 'Jan 2026',
     status: 'Active',
-    link: '#'
+    link: 'https://drive.google.com/file/d/1GWOaNHKpTmlsEtvy5-Oe8ZzJuOtFzXX5/view?usp=drive_link'
   }
 ]
 
