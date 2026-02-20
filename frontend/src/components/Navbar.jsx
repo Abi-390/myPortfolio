@@ -52,7 +52,7 @@ const Navbar = () => {
             whileTap={{ scale: 0.95 }}
           >
             <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center font-bold md:hidden">
-              A
+              ♥ 
             </div>
             <span className="hidden sm:inline ">AbiCodes</span>
           </motion.a>
