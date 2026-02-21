@@ -112,7 +112,7 @@ const Projects = () => {
           viewport={{ once: true }}
         >
           <motion.a
-            href="#"
+            href="https://github.com/Abi-390?tab=repositories"
             className="inline-flex items-center gap-2 text-accent hover:text-accent-dark font-medium group"
             whileHover={{ x: 4 }}
           >
