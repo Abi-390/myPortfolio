@@ -92,7 +92,7 @@ const Contact = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
-            Let's Connect
+            Let's Connect🤗
           </h2>
           <p className="text-lg text-text-secondary">
             Have a project in mind or just want to say hi? My inbox is always open.
