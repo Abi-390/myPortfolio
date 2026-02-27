@@ -76,13 +76,13 @@ const Hero = () => {
 
             {/* Stats */}
             <motion.div
-              className="grid grid-cols-3 gap-4 py-4"
+              className=" gap-4 py-4 items-center justify-center flex"
               variants={itemVariants}
             >
               {[
-                { number: '0-1', label: 'Years Exp.' },
-                { number: '20+', label: 'Projects' },
-                { number: '1', label: 'Clients' },
+                //{ number: '0-1', label: 'Years Exp.' },
+              //  { number: '10+', label: 'Projects' },
+               // { number: '1', label: 'Clients' },
               ].map((stat, i) => (
                 <div key={i} className="text-center md:text-left">
                   <div className="text-2xl md:text-3xl font-display font-bold text-accent">
